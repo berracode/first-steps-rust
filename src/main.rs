@@ -1,7 +1,9 @@
-fn main(){
+fn main() {
+    println!("Hello, world!");
 
-    let guess: u32 = "42".parse().expect("Not a number!");
+    another_function();
+}
 
-    println!("hello: {guess}");
-
+fn another_function() {
+    println!("Another function.");
 }
