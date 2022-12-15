@@ -1,4 +1,20 @@
-fn main() {
+
+fn main(){
+    //using shadowing with different datatype
+    let spaces = "   "; //our variable is a string
+    let spaces = spaces.len(); // len() return a numeric value then spaces is a number type.
+
+    println!("spaces size: {spaces}");
+
+    let mut spaces1 = "   "; //now, spaces1 variable is a string type and mut. 
+    //spaces1 = spaces1.len(); 
+    /* len return a numeric value. spaces1 could take other value but 
+    it can't in this case because it's not allowed to mutate a variable's type */
+
+
+}
+
+fn main2() {
 
     //shadowing: you can declare a new variable with the same name as a previous variable.
 
