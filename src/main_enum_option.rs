@@ -28,10 +28,10 @@ fn main(){
 
 
 fn basic_option(){
-    let name: Option<String> = None;
+    let name: Option<String> = "None";
 
     match name {
         None => println!("Name is null"),
-        Some(name) => println!("{} ", name)
+        Some(va) => println!("{} ", va)
     };
 }

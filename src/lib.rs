@@ -1,3 +1,4 @@
+#![allow(unreachable_code, unused_variables, dead_code)]
 
 mod front_of_house;
 
