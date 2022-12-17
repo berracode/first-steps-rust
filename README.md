@@ -34,8 +34,8 @@ On the other hand if our variables were passing like shared references we could 
 
 ## Data types
 
-![alt text](./resources/integer_type_rust.png)
+![alt text](./resources/imgs/integer_type_rust.png)
 
-![alt text](./resources/integer_literal.png)
+![alt text](./resources/imgs/integer_literal.png)
 
 
